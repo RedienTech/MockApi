@@ -17,13 +17,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/src/html/gifs.html">Gifs</a>
+                    <a class="nav-link" href="/index.html">Gifs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/src/html/users.html">Users</a>
+                    <a class="nav-link" href="/users.html">Users</a>
                   </li>
                 </ul>
               </div>
@@ -31,13 +31,26 @@
           </nav>
         <main>
             <div class="row">
-                <h1 class="text-center">Gifs</h1>
+                <h1 class="text-center">Usuarios</h1>
             </div>
-            <div class="row" id="gifs-home">          
+            <div class="row">    
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Genero</th>
+                        <th scope="col">Avatar</th>
+                      </tr>
+                    </thead>
+                    <tbody id="users-table">
+                      
+                    </tbody>
+                  </table>      
             </div>
         </main>
     </div>
-    <script src="../js/gifs.js"></script>
+    <script src="./src/js/users.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
